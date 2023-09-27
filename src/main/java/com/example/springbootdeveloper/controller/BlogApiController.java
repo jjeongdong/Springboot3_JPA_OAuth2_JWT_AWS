@@ -42,6 +42,9 @@ public class BlogApiController {
                                                  @RequestBody UpdateArticleRequest updateArticleRequest) {
         Article updatedArticle = blogService.update(id, updateArticleRequest);
 
+        System.out.println(updatedArticle.getTitle());
+        System.out.println(updatedArticle.getContent());
+
         return ResponseEntity.ok()
                 .body(updatedArticle);
     }
