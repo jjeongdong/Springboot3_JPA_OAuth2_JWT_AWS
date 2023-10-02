@@ -9,5 +9,5 @@ import org.springframework.context.annotation.Configuration;
                 description = "블로그 API 명세서",
                 version = "v1"))
 @Configuration
-public class SwaggerConfiguration {
+public class SwaggerConfig {
 }
