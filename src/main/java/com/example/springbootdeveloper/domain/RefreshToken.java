@@ -1,6 +1,5 @@
 package com.example.springbootdeveloper.domain;
 
-
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -33,4 +32,3 @@ public class RefreshToken {
         return this;
     }
 }
-
